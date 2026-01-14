@@ -4,16 +4,24 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+ var x = 10;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
- 
+
+
+noStroke();
+  // position of meatball
+
+
   background(255,255,255,0);
-  
-
-
-
+ fill (130, 48, 16)
+ellipse (200 + x,350,50,50);
+ fill (130, 48, 16)
+ellipse (370 + x,350,40,40);
+ fill (130, 48, 16)
+ellipse (340 + x,350,50,50);
+x = x + 4;
 
 
   //Show x y values when mousepressed
