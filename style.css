@@ -21,3 +21,10 @@ h1{
   font-style: normal;
 }
 
+#movingText {
+    position: absolute; /* or relative */
+   bottom: 40%;
+    left: 70px;
+    font-size:xx-large;
+    color: darkred;
+}
