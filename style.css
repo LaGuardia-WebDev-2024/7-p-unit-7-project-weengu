@@ -20,11 +20,11 @@ h1{
   font-size: 50px;
   font-style: normal;
 }
-
-#movingText {
-    position: absolute; /* or relative */
-   bottom: 60%;
-    left: 100px;
-    font-size:xx-large;
-    color: darkred;
+#poo {
+    position: fixed;
+      top: 200px;
+      left: 300px;
+      color: brown;
+      font-size: xx-large;
 }
+
