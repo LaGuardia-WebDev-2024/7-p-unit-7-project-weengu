@@ -23,8 +23,8 @@ h1{
 
 #movingText {
     position: absolute; /* or relative */
-   bottom: 40%;
-    left: 70px;
+   bottom: 60%;
+    left: 100px;
     font-size:xx-large;
     color: darkred;
 }
